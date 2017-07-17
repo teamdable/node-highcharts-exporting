@@ -90,11 +90,7 @@ module.exports = function (obj , callback){
         })
 
         res.on('end' , function (){
-            if(data.indexOf("Error") >=0){
-                callback(new Error(data));
-            }else {
-                callback(null , data);
-            }
+            callback(null , data);
 
         })
 

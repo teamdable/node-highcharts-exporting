@@ -6,7 +6,7 @@
 var http = require('http'),
     childProcess = require('child_process'),
     path = require("path"),
-    phantomjs = require('phantomjs');
+    phantomjs = require('phantomjs-prebuilt');
 
 var binPath = phantomjs.path;
 

@@ -4,7 +4,7 @@
   "description": "easy to use  highcharts exporting by phantomjs",
   "main": "index.js",
   "dependencies": {
-    "phantomjs": "^2.1.7"
+    "phantomjs-prebuilt": "^2.1.16"
   },
   "homepage": "https://github.com/caihuiji/node-highcharts-exporting",
   "repository": {
